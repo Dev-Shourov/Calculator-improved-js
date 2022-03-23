@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Mulish:wght@700&family=Poppins:wght@400;500;600&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(18, 26, 31);
+    font-family: 'Montserrat', sans-serif;
+}
+div.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .wrapper{
+    max-width: 250px;
+    width: 90%;
+    background: rgb(39, 55, 59);
+    border-radius: 9px;
+    overflow: hidden;
+}
+.wrapper .display-box{
+    background: rgb(255, 255, 255);
+    height: 40px;
+    width: 90%;
+    text-align: right;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    border-top-right-radius: 9px;
+    border-top-left-radius: 9px;
+}
+.wrapper .all-btn{
+    color: whitesmoke;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+.all-btn .button{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgba(92, 92, 92, 0.197);
+    cursor: pointer;
+}
+.button:hover{
+    background: rgb(30, 43, 46);
+}
+.btn-0{
+    grid-column: 1/3;
+}
+
